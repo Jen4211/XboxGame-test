@@ -1,0 +1,98 @@
+:root {
+    --color1: #373A3C;
+    --color2: #8DD83D;
+    --color3: #539112;
+    --color1_bg: #686C6F;
+    --color2_bg: #373A3C;
+    --color3_bg: #c8d9e1;
+    --color4_bg: #e8eaeb;
+
+}
+.color_link {
+    color: var(--color3)
+}
+.bg_color {
+    background: var(--color1_bg);
+    background: -moz-linear-gradient(top,  var(--color1_bg) 0%, var(--color2_bg) 100%);
+    background: -webkit-linear-gradient(top,  var(--color1_bg) 0%,var(--color2_bg) 100%);
+    background: linear-gradient(to bottom,  var(--color1_bg) 0%,var(--color2_bg) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=var(--color1_bg), endColorstr=var(--color2_bg),GradientType=0 );
+}
+.style_btn {
+    background-color: var(--color2);
+    color: #FFFF;
+    font-size: 16px;
+    --bs-btn-active-bg: var(--color1_bg);
+    --bs-btn-active-color: #fff;
+}
+.style_btn:hover {
+    background-color: var(--color3);
+    
+    color: #FFFF;
+}
+
+body {
+    font-family: "HelveticaNeue";
+    color: #435766;
+}
+
+/* header */
+
+.dropdown-menu {
+    --bs-dropdown-link-active-bg: #a5a8ab;
+    --bs-dropdown-link-hover-bg: #a5a8ab;
+}
+/* section bg header */
+.bg_header {
+    background: url(../imgPage2/CoD-WWII.png) center/ cover no-repeat;
+    min-height: 550px;
+}
+.style_text_header {
+    margin-top: 100px ;
+}
+.wrap_btn {
+    margin-top: 150px;
+}
+/* section content */
+.bg_content {
+    background: var(--color3_bg);
+    background: -moz-linear-gradient(top,  var(--color3_bg) 0%, var(--color4_bg) 100%);
+    background: -webkit-linear-gradient(top,  var(--color3_bg) 0%,var(--color4_bg) 100%);
+    background: linear-gradient(to bottom,  var(--color3_bg) 0%,var(--color4_bg) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr= var(--color3_bg), endColorstr=var(--color4_bg),GradientType=0 );
+}
+.style_row_btn {
+    margin-top: 100px;
+}
+.bg_video {
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+}
+.style_btn_play {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* footer */
+.footer_bg {
+    background-color: var(--color1);
+    padding: 60px 0 40px; 
+}
+.footer_bg a {
+color: var(--color1_bg);
+text-decoration: none;
+}
+.footer_bg a:hover {
+    color: #E6E6E6;
+}
+.style_line {
+    margin-top: 50px ;
+    width: 100%;
+    height: 2px;
+    background: var(--color1_bg);
+}

@@ -1,0 +1,120 @@
+:root {
+    --color1: #373A3C;
+    --color2: #8DD83D;
+    --color3: #539112;
+    --color1_bg: #686C6F;
+    --color2_bg: #373A3C;
+}
+.color_link {
+    color: var(--color3)
+}
+.bg_color {
+    background: var(--color1_bg);
+    background: -moz-linear-gradient(top,  var(--color1_bg) 0%, var(--color2_bg) 100%);
+    background: -webkit-linear-gradient(top,  var(--color1_bg) 0%,var(--color2_bg) 100%);
+    background: linear-gradient(to bottom,  var(--color1_bg) 0%,var(--color2_bg) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=var(--color1_bg), endColorstr=var(--color2_bg),GradientType=0 );
+}
+.style_btn {
+    background-color: var(--color2);
+    color: #FFFF;
+    font-size: 16px;
+    --bs-btn-active-bg: var(--color1_bg);
+    --bs-btn-active-color: #fff;
+}
+.style_btn:hover {
+    background-color: var(--color3);
+    
+    color: #FFFF;
+}
+
+body {
+    font-family: "HelveticaNeue";
+    color: #435766;
+}
+
+/* header */
+
+.dropdown-menu {
+    --bs-dropdown-link-active-bg: #a5a8ab;
+    --bs-dropdown-link-hover-bg: #a5a8ab;
+}
+/* section header bg */
+.header_bg {
+    background: url(../img/Star-Wars-Battlefront-II-combat.png) center / cover no-repeat;
+    height: 644px;
+}
+.row>* {
+    padding-right: 0;
+    padding-left: 0;
+}
+.style_title {
+    margin-top: 200px;
+}
+.style_indent_btn {
+    margin-top: 130px;
+}
+/* section cards */
+
+.style_container {
+    padding: 64px 0;
+}
+.card-img-top {
+    height: 180px;
+}
+.style_img_second_card {
+    padding: 55px 40px;
+    height: 180px;
+}
+.style_img_three_card {
+    padding: 33px 40px;
+}
+/* section rectangle */
+.bg_rectangle {
+    background: url(../img/Rectangle.png) center / cover no-repeat;
+    min-height: 880px;
+}
+.style_container_rectangle {
+    padding: 100px 0 140px;
+}
+/* section lab */
+.bg_lab {
+    background: url(../img/lab.png) center / cover no-repeat;
+    min-height: 480px;
+}
+.style_container_lab {
+    padding: 115px 0 125px;
+}
+.style_card {
+    max-width: 320px;
+    min-height: 300px;
+}
+.style_card:hover {
+    transform: scale(1.1);
+    transition: all 0.8s ease ;
+}
+.style_card_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 8px;
+    height: 100%;
+}
+/* footer */
+.footer_bg {
+    background-color: var(--color1);
+    padding: 60px 0 40px; 
+}
+.footer_bg a {
+color: var(--color1_bg);
+text-decoration: none;
+}
+.footer_bg a:hover {
+    color: #E6E6E6;
+}
+.style_line {
+    margin-top: 50px ;
+    width: 100%;
+    height: 2px;
+    background: var(--color1_bg);
+}
